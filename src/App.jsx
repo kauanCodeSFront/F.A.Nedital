@@ -71,11 +71,6 @@ function FormQuestion() {
         </label>
 
         <label>
-          Passaporte:
-          <input name="passaporte" required />
-        </label>
-
-        <label>
           Idade:
           <input type="number" name="idade" required />
         </label>
@@ -115,11 +110,6 @@ function FormQuestion() {
         <label>
           Tempo disponível:
           <input name="tempoDisponivel" />
-        </label>
-
-        <label>
-          CNH:
-          <input name="cnh" />
         </label>
 
         <label>
