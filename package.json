@@ -2,17 +2,17 @@
   "name": "f.a.n.edital",
   "version": "0.0.0",
   "private": true,
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "description": "React + Vite + Express backend",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "eslint.config.js",
+  "main": "src/backend/server.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "npm run preview"
+    "preview": "vite preview --host",
+    "start": "node src/backend/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
