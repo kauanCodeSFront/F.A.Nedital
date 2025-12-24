@@ -36,7 +36,6 @@ function FormQuestion() {
 
     const payload = {
       nome: form.nome.value,
-      passaporte: form.passaporte?.value,
       idade: form.idade.value,
       discord: form.discord.value,
       tempoCidade: form.tempoCidade.value,

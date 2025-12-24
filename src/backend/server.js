@@ -24,7 +24,6 @@ app.post("/edital", async (req, res) => {
                         color: 0x255F38, // verde
                         fields: [
                             { name: "Nome", value: data.nome || "Não informado" },
-                            { name: "Passaporte", value: data.passaporte || "Não informado" },
                             { name: "Idade IRL", value: data.idade || "Não informado", inline: true },
                             { name: "Discord", value: data.discord || "Não informado", inline: true },
                             { name: "Tempo na cidade", value: data.tempoCidade || "Não informado" },
